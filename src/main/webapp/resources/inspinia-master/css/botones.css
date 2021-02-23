@@ -1,0 +1,184 @@
+/***********btn-OceanBoatBlue****************/
+.btn-OceanBoatBlue {
+  background-color: #0075BE;
+  border-color: #0075BE;
+  color: #FFFFFF;
+}
+.btn-OceanBoatBlue:hover,
+.btn-OceanBoatBlue:focus,
+.btn-OceanBoatBlue:active,
+.btn-OceanBoatBlue.active {
+  background-color: #0065a5;
+  border-color: #00568b;
+  color: #FFFFFF;
+}
+.btn-OceanBoatBlue.disabled:hover,
+.btn-OceanBoatBlue.disabled:focus,
+.btn-OceanBoatBlue.disabled:active,
+.btn-OceanBoatBlue.disabled.active,
+.btn-OceanBoatBlue[disabled]:hover,
+.btn-OceanBoatBlue[disabled]:focus,
+.btn-OceanBoatBlue[disabled]:active,
+.btn-OceanBoatBlue[disabled].active,
+fieldset[disabled] .btn-OceanBoatBlue:hover,
+fieldset[disabled] .btn-OceanBoatBlue:focus,
+fieldset[disabled] .btn-OceanBoatBlue:active,
+fieldset[disabled] .btn-OceanBoatBlue.active {
+  background-color: #0075BE;
+  border-color: #0075BE;
+  color: #FFFFFF;
+}
+/***********btn-OceanBoatBlue****************/
+
+/***********btn-Lapislazuli******************/
+.btn-Lapislazuli {
+  background-color: #1d6fa6;
+  border-color: #1d6fa6;
+  color: #FFFFFF;
+}
+.btn-Lapislazuli:hover,
+.btn-Lapislazuli:focus,
+.btn-Lapislazuli:active,
+.btn-Lapislazuli.active {
+  background-color: #196090;
+  border-color: #15527b;
+  color: #FFFFFF;
+}
+.btn-Lapislazuli.disabled:hover,
+.btn-Lapislazuli.disabled:focus,
+.btn-Lapislazuli.disabled:active,
+.btn-Lapislazuli.disabled.active,
+.btn-Lapislazuli[disabled]:hover,
+.btn-Lapislazuli[disabled]:focus,
+.btn-Lapislazuli[disabled]:active,
+.btn-Lapislazuli[disabled].active,
+fieldset[disabled] .btn-Lapislazuli:hover,
+fieldset[disabled] .btn-Lapislazuli:focus,
+fieldset[disabled] .btn-Lapislazuli:active,
+fieldset[disabled] .btn-Lapislazuli.active {
+  background-color: #1d6fa6;
+  border-color: #1d6fa6;
+}
+/***********btn-Lapislazuli******************/
+
+/***********btn-HippieGreen******************/
+.btn-HippieGreen {
+  background-color: #629B58;
+  border-color: #629B58;
+  color: #FFFFFF;
+}
+.btn-HippieGreen:hover,
+.btn-HippieGreen:focus,
+.btn-HippieGreen:active,
+.btn-HippieGreen.active {
+  background-color: #588b4f;
+  border-color: #4d7a46;
+  color: #FFFFFF;
+}
+.btn-HippieGreen.disabled:hover,
+.btn-HippieGreen.disabled:focus,
+.btn-HippieGreen.disabled:active,
+.btn-HippieGreen.disabled.active,
+.btn-HippieGreen[disabled]:hover,
+.btn-HippieGreen[disabled]:focus,
+.btn-HippieGreen[disabled]:active,
+.btn-HippieGreen[disabled].active,
+fieldset[disabled] .btn-HippieGreen:hover,
+fieldset[disabled] .btn-HippieGreen:focus,
+fieldset[disabled] .btn-HippieGreen:active,
+fieldset[disabled] .btn-HippieGreen.active {
+  background-color: #629B58;
+  border-color: #629B58;
+}
+/***********btn-HippieGreen******************/
+
+/***********btn-Silver******************/
+.btn-Silver {
+  background-color: #c2c2c2;
+  border-color: #c2c2c2;
+  color: #FFFFFF;
+}
+.btn-Silver:hover,
+.btn-Silver:focus,
+.btn-Silver:active,
+.btn-Silver.active {
+  background-color: #b5b5b5;
+  border-color: #a9a9a9;
+  color: #FFFFFF;
+}
+.btn-Silver.disabled:hover,
+.btn-Silver.disabled:focus,
+.btn-Silver.disabled:active,
+.btn-Silver.disabled.active,
+.btn-Silver[disabled]:hover,
+.btn-Silver[disabled]:focus,
+.btn-Silver[disabled]:active,
+.btn-Silver[disabled].active,
+fieldset[disabled] .btn-Silver:hover,
+fieldset[disabled] .btn-Silver:focus,
+fieldset[disabled] .btn-Silver:active,
+fieldset[disabled] .btn-Silver.active {
+  background-color: #c2c2c2;
+  border-color: #c2c2c2;
+}
+/***********btn-Silver******************/
+
+
+/***********btn-Bunting******************/
+.btn-Bunting {
+  background-color: #252d47;
+  border-color: #252d47;
+  color: #FFFFFF;
+}
+.btn-Bunting:hover,
+.btn-Bunting:focus,
+.btn-Bunting:active,
+.btn-Bunting.active {
+  background-color: #1c2236;
+  border-color: #141825;
+   color: #FFFFFF;
+}
+.btn-Bunting.disabled:hover,
+.btn-Bunting.disabled:focus,
+.btn-Bunting.disabled:active,
+.btn-Bunting.disabled.active,
+.btn-Bunting[disabled]:hover,
+.btn-Bunting[disabled]:focus,
+.btn-Bunting[disabled]:active,
+.btn-Bunting[disabled].active,
+fieldset[disabled] .btn-Bunting:hover,
+fieldset[disabled] .btn-Bunting:focus,
+fieldset[disabled] .btn-Bunting:active,
+fieldset[disabled] .btn-Bunting.active {
+  background-color: #252d47;
+  border-color: #252d47;
+   color: #FFFFFF;
+}
+/***********btn-Bunting******************/
+
+.container{
+    margin-top:20px;
+}
+.image-preview-input {
+    position: relative;
+    overflow: hidden;
+    margin: 0px;    
+    color: #333;
+    background-color: #fff;
+    border-color: #ccc;    
+}
+.image-preview-input input[type=file] {
+	position: absolute;
+	top: 0;
+	right: 0;
+	margin: 0;
+	padding: 0;
+	font-size: 20px;
+	cursor: pointer;
+	opacity: 0;
+	filter: alpha(opacity=0);
+}
+.image-preview-input-title {
+    margin-left:2px;
+}
+

@@ -1,0 +1,202 @@
+.subtitulos{
+    font-weight:bold;
+    color: #3078BB;
+    font-size: 16px;
+    padding : 20px 0px 0px 20px;
+
+}
+.subtitulosNoLineas{
+    font-weight:bold;
+    color: #3078BB;
+    font-size: 16px;
+    padding : 20px 0px 0px 20px;
+    border-style : none;     
+}
+
+.reg_per{
+    padding-left:  30px;
+    vertical-align: top;
+    padding-top: 5px;
+}
+
+.select2 {
+    width: 100% !important;
+}
+
+span.select2-container {
+    z-index:2050;
+}
+
+.fuente11px {
+    font-size: 10px !important;
+}
+
+.no-gutter > [class*='col-'] {
+    padding-right:0;
+    padding-left:0;
+}
+
+.container-PDF{
+    display: grid;
+    grid-template-columns: 10% 1fr 10%;
+    margin-top: 10px;
+    padding: 15px;
+    width: 100%;
+    grid-template-areas:
+        "Preview x Next"
+        "Pages Pages Pages ";
+    grid-template-rows: 90% 10%;
+
+}
+
+.box-PDF{
+    grid-area:x;
+    align-self: center;
+    justify-self:center;
+
+}
+.box-Next{
+    grid-area:Next;
+    align-self: center;
+    justify-self:start;
+
+}
+.box-Preview{
+    grid-area:Preview;
+    align-self: center;
+    justify-self:end;
+
+}
+.box-Pages{
+    grid-area:Pages;
+    align-self: center;
+    justify-self:center;
+
+}
+#pdf-render{
+    width: 100%
+}
+
+#contenedor_carga{
+    background-color: rgba(0,0,0,0.4);
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    -webkit-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease;
+    z-index: 10000;
+    
+}
+
+#carga{
+    border: 15px, solid #000;
+    border-top-color: #000;
+    border-top-style: groove;
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    
+    position: absolute;
+    top:0;
+    left:0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    -webkit-animation: girar 1.5s linear infinite;
+    -o-animation: girar 1.5s linear infinite;
+    animation: girar 1.5s lienar infinite;
+}
+
+
+
+@keyframes girar {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+.button {
+  position:absolute;
+}
+
+#signatureBox {
+  display: none;
+}
+#modal-background {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    opacity: .50;
+    -webkit-opacity: .5;
+    -moz-opacity: .5;
+    filter: alpha(opacity=50);
+    z-index: 1000;
+}
+
+#signatureWindow {
+    box-shadow: 0 0 20px 0 #222;
+    -webkit-box-shadow: 0 0 20px 0 #222;
+    -moz-box-shadow: 0 0 20px 0 #222;
+    display: none;
+    padding: 0;
+    position: absolute;
+    z-index: 1000;
+}
+
+#modal-background.active, #signatureWindow.active {
+    display: block;
+}
+
+#myCanvas {
+  width:100%;
+  height:100%;
+}
+/*
+#modal-background.active, #myCanvas.active {
+    display: block;
+}*/
+/*
+#myCanvas canvas {
+  width:100%;
+  height:100%;
+}*/
+
+#signatureDiv {
+  float:left;
+  margin-right:15px;
+}
+
+#signatureImageVB{
+  width:300px;
+  height:200px;
+  border:1px solid black;
+  display:block;
+}
+
+#signatureImageRC{
+  width:300px;
+  height:200px;
+  border:1px solid black;
+  display:block;
+}
+
+#wgssSTU {
+  width:0;
+  height:0;
+}
+
+.thirdPartyLicenses {
+  display:none;
+  font-size:8pt;
+}
+
